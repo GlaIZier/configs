@@ -1,5 +1,5 @@
 # aliases
-alias ls='ls -la'
+alias ll='ls -la'
 #git
 alias gc='git commit'
 alias gull='git pull'
