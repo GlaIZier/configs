@@ -5,6 +5,9 @@
 
 # aliases
 alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+
 alias calc='wcalc -c'
 #docker
 alias dim="docker images"
