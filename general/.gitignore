@@ -14,7 +14,8 @@ DEADJOE
 rebel*.xml
 *.versionsBackup
 
-repository/
-target/
-logs/
-.DS_Store
+# Compiled class file
+*.class
+
+# Log file
+*.log

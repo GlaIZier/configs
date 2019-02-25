@@ -1,2 +1,2 @@
-# bash-profile
-Bash profiles for different OS
+# configs
+Configs for different OS
