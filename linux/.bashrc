@@ -1,20 +1,19 @@
-# add to .bashrc:
-# if [ -f ~/.bash_aliases ]; then
-#   . ~/.bash_aliases
-# fi
+#!/bin/bash
+#   ~/.bashrc
+#
+# Non-login shells (shells that are created by the user) execute only execute ~/.bashrc, not /.profile or ~/.bash_profile. Here everything that only applies to bash is defined (functions, aliases, bash-only variables like HISTSIZE (this is not an environment variable, don't export it!), shell options with set and shopt).
 
 # aliases
 alias ll='ls -lah'
-alias la='ls -A'
-alias l='ls -CF'
-
 alias calc='wcalc -c'
+
 #docker
 alias dim="docker images"
 alias dimu="docker images -a | grep '^<none>'"
 alias dps="docker ps"
 alias drm="docker rm"
 alias drmi="docker rmi"
+
 #git
 alias gst='git status'
 alias ga='git add'
