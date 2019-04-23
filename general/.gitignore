@@ -5,6 +5,9 @@
 #*#
 DEADJOE
 
+#Mac
+.DS_Store
+
 # IDEA project settings
 .idea
 *.ipr
@@ -14,8 +17,9 @@ DEADJOE
 rebel*.xml
 *.versionsBackup
 
+# Java
 # Compiled class file
 *.class
 
-# Log file
+# Logs
 *.log
