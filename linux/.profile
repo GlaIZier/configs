@@ -6,11 +6,11 @@
 
 
 # env variables
-# export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"
+# export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin"
 # export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-# export SDKMAN_DIR="/Users/GlaIZier/.sdkman"
-# [[ -s "/Users/GlaIZier/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/GlaIZier/.sdkman/bin/sdkman-init.sh"
+# export SDKMAN_DIR="/home/GlaIZier/.sdkman"
+# [[ -s "/home/GlaIZier/.sdkman/bin/sdkman-init.sh" ]] && source "/home/GlaIZier/.sdkman/bin/sdkman-init.sh"
 # export SDKMAN_OFFLINE_MODE=false
