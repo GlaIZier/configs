@@ -7,5 +7,6 @@ host github.com
 # github q0oz
 Host q0oz.github.com    
    HostName github.com
-   User git
    IdentityFile /Users/GlaIZier/.ssh/git_rsa
+   UseKeychain yes
+   User git
