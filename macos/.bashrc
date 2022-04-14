@@ -1,7 +1,6 @@
-#!/bin/bash
-#   ~/.bashrc
-#
-# Non-login shells (shells that are created by the user) execute only execute ~/.bashrc, not /.profile or ~/.bash_profile. Here everything that only applies to bash is defined (functions, aliases, bash-only variables like HISTSIZE (this is not an environment variable, don't export it!), shell options with set and shopt).
+# Non-login shell config
+# Every interactive non-login shell reads .bashrc first. 
+# Normally .bashrc is the best place to add aliases and Bash related functions.
 
 # aliases
 alias ll='ls -lah'
