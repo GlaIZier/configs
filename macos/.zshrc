@@ -1,6 +1,3 @@
-#!/bin/bash
-#   ~/.bashrc
-#
-# Specific zsh commands and functions. This file is used by both login and non-login shells
+# This sets the environment for interactive shells. This gets loaded after .zprofile. 
 
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
