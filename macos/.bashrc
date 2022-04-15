@@ -1,6 +1,11 @@
 # Non-login shell config
 # Every interactive non-login shell reads .bashrc first. 
 # Normally .bashrc is the best place to add aliases and Bash related functions.
+# For simplicity put PATH and other env vars here and avoid using .profile and .bash_profile as it is read every time a new shell is created, e.g.
+
+# export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"
+# export PATH="/usr/bin:/bin:/usr/sbin:/sbin"
+
 
 # aliases
 alias ll='ls -lah'
