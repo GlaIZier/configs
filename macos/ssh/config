@@ -1,10 +1,13 @@
 # github GlaIZier
+# git clone git@github.com:GlaIZier/cv.git
+# git config --local/global user.email/name ""
 host github.com
  HostName github.com
  IdentityFile /Users/GlaIZier/.ssh/github_rsa
  User git
 
 # github q0oz
+# git clone git@q0oz.github.com:wiley/transformation-data.git
 Host q0oz.github.com    
    HostName github.com
    IdentityFile /Users/GlaIZier/.ssh/git_rsa
