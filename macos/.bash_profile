@@ -1,3 +1,4 @@
+# NO NEED ANYMORE? Use .bashrc
 # Login shell config
 # The .bash_profile file contains commands for setting environment variables. 
 # Consequently, future shells inherit these variables.

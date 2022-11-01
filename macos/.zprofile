@@ -1,3 +1,4 @@
+# Prefer to use .zshrc only
 # .zlogin and .zprofile are basically the same thing - they set the environment for login shells
 # .zshenv → .zprofile → .zshrc → .zlogin → .zlogout
 
