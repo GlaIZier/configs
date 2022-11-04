@@ -17,6 +17,11 @@ alias dimu="docker images -a | grep '^<none>'"
 alias dps="docker ps"
 alias drm="docker rm"
 alias drmi="docker rmi"
+alias drmia="docker rmi \$(docker images -a -q)"
+alias dst="docker stop"
+alias dsta="docker stop \$(docker ps -a -q)"
+alias dka="docker kill \$(docker ps -a -q)"
+alias dspa="docker system prune -a -f"
 
 #git
 alias gst='git status'
