@@ -13,6 +13,7 @@ alias calc='wcalc -c'
 
 #docker
 alias dim="docker images"
+alias dima="docker images -a"
 alias dimu="docker images -a | grep '^<none>'"
 alias dps="docker ps"
 alias drm="docker rm"
@@ -20,7 +21,9 @@ alias drmi="docker rmi"
 alias drmia="docker rmi \$(docker images -a -q)"
 alias dst="docker stop"
 alias dsta="docker stop \$(docker ps -a -q)"
+alias dk="docker kill"
 alias dka="docker kill \$(docker ps -a -q)"
+alias dsdf="docker system df"
 alias dspa="docker system prune -a -f"
 
 #git
