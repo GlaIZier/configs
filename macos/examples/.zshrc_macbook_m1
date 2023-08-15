@@ -136,3 +136,18 @@ eval "$(pyenv init -)"
 
 # echo $PATH
 # /Users/mkhokhlush/.pyenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/opt/fzf/bin
+export HOMEBREW_GITHUB_API_TOKEN=token
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/mkhokhlush/opt/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mkhokhlush/opt/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/mkhokhlush/opt/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mkhokhlush/opt/google-cloud-sdk/completion.zsh.inc'; fi
+
+function secenv(){
+  # https://medium.com/@johnjjung/how-to-store-sensitive-environment-variables-on-macos-76bd5ba464f6
+  # security add-generic-password -a "$USER" -s 'name_of_your_key' -w 'passphrase'
+  export api1=$(security find-generic-password -a "$USER" -s "api1" -w)
+  export api2=$(security find-generic-password -a "$USER" -s "api2" -w)
+  export api3=$(security find-generic-password -a "$USER" -s "api3" -w)
+}
