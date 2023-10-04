@@ -42,3 +42,9 @@ alias gash='git stash'
 alias gashl='git stash list'
 alias gasha='git stash apply'
 alias gashd='git stash drop'
+
+function secenv(){
+  # https://medium.com/@johnjjung/how-to-store-sensitive-environment-variables-on-macos-76bd5ba464f6
+  # security add-generic-password -a "$USER" -s 'name_of_your_key' -w 'passphrase'
+  export some_key=$(security find-generic-password -a "$USER" -s "some_key" -w)
+}
